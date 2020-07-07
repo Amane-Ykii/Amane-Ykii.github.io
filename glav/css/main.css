@@ -1,0 +1,164 @@
+.wrapper{
+
+}
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.parallax{
+    position: relative;
+    height: 100%;
+
+}
+.parallax__montain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax__montain_1{
+   background: url(../img/m_1.png) 0 0 / cover no-repeat;
+}
+.parallax__montain_2{
+    z-index: 1;
+    background: url(../img/m_2.png) bottom right / 45% no-repeat;
+}
+.parallax__montain_3{
+    z-index: 1;
+    background: url(../img/m_3.png) left bottom / 100% no-repeat;
+}
+.parallax__fog{
+    z-index: 1;
+    background: url(../img/fog_1.png) bottom  / 100% no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+.content{position: relative;
+
+}
+.content__body{
+    max-width: 1170px;
+    margin: 0px auto;
+
+
+}
+.content__header{text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+}
+.content__title{
+    font-size: 130px;
+
+}
+.content__subtitle{
+     font-size: 100px;
+}
+.content__article{
+    background-color: rgba(219, 244, 244, 0.6);
+    padding: 25px;
+    font-size: 18px;
+    line-height: 24px
+
+}
+.content__article p{
+    margin-bottom: 20px
+}
+/*                                                                                      МЕНЮ*/
+.icon_menu {
+    width: 35px
+}
+
+.icon_menu:hover {
+    width: 40px
+}
+
+#mainmenu {
+    z-index: 2;
+    background: #444;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 30px 0;
+    max-width: 100%;
+}
+
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+
+#mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 19px;
+}
+
+#mainmenu ul li a:hover {
+    background-color: #ea1515;
+    height: 45px;
+    width: 120px;
+    font-size: 22px;
+
+}
+
+#mainmenu:hover {
+
+    height: 45px;
+    box-shadow: 0 20px #bfa3a3;
+}
+
+/*КНОПКА ВВЕРХ*/
+#knopohka_wtf:hover {
+
+
+    animation: 5s;
+    animation: shadow 1s ease-in-out 0.5s alternate;
+}
+
+#knopohka_wtf {
+    max-width: 75px;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.vverx {
+    min-width: 75px;
+    height: 80px
+}
+
+
+
